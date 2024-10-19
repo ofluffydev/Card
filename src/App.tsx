@@ -46,7 +46,7 @@ function CardFront({ name, roles }: CardInfo["front"]) {
   ];
 
   return (
-    <Card className="w-80 h-48 bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 overflow-hidden relative shadow-[0_0_30px_rgba(147,51,234,0.7)] hover:shadow-[0_0_40px_rgba(147,51,234,0.9)] transition-all duration-300 ease-in-out transform hover:-translate-y-1">
+    <Card className="rounded-none w-80 h-48 bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 overflow-hidden relative shadow-[0_0_30px_rgba(147,51,234,0.7)] hover:shadow-[0_0_40px_rgba(147,51,234,0.9)] transition-all duration-300 ease-in-out transform hover:-translate-y-1">
       <CardContent className="flex flex-col justify-between h-full p-6 text-white">
         <div>
           <h2 className="text-2xl font-bold mb-4">{name}</h2>
@@ -65,7 +65,7 @@ function CardFront({ name, roles }: CardInfo["front"]) {
 
 function CardBack({ info }: { info: CardInfo["back"] }) {
   return (
-    <Card className="w-80 h-48 bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 overflow-hidden shadow-[0_0_30px_rgba(147,51,234,0.7)] hover:shadow-[0_0_40px_rgba(147,51,234,0.9)] transition-all duration-300 ease-in-out transform hover:-translate-y-1">
+    <Card className="rounded-none w-80 h-48 bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-500 overflow-hidden shadow-[0_0_30px_rgba(147,51,234,0.7)] hover:shadow-[0_0_40px_rgba(147,51,234,0.9)] transition-all duration-300 ease-in-out transform hover:-translate-y-1">
       <CardContent className="flex flex-col justify-between h-full p-6 text-white">
         <div className="space-y-2">
           <div className="flex items-center">
